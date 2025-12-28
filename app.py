@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 設定網頁標題與圖示
-st.set_page_config(page_title="2026 沖繩家族行", page_icon="🚗", layout="wide")
+st.set_page_config(page_title="2026年1月沖繩家族旅行", page_icon="🚗", layout="wide")
 
 # 自定義 CSS 讓介面更像旅遊 App
 st.markdown("""
@@ -84,3 +84,4 @@ for day, sites in itinerary.items():
 
 st.divider()
 st.info("💡 提示：在手機上點擊『導航』會自動開啟 Google Maps App。")
+
