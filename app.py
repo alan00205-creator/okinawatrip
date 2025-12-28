@@ -26,7 +26,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🌊 2026 沖繩家族自駕五日遊")
+st.title("🌊2026年1月沖繩家族旅行")
 st.write("點擊下方景點名稱即可直接開啟 **Google 地圖導航**")
 
 # 行程資料
@@ -84,4 +84,5 @@ for day, sites in itinerary.items():
 
 st.divider()
 st.info("💡 提示：在手機上點擊『導航』會自動開啟 Google Maps App。")
+
 
